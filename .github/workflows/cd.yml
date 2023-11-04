@@ -22,6 +22,6 @@ jobs:
         run: go get
 
       - name: Build the app
-        uses: bash ./scripts/buildprod.sh
+        run: ./scripts/buildprod.sh
 
   
